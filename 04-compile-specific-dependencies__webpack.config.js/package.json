@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "04-ignore-all-except-specific-dependencies__webpack.config.js",
+  "name": "04-compile-specific-dependencies__webpack.config.js",
   "version": "1.0.0",
   "main": "lib/bundle.js",
   "scripts": {
