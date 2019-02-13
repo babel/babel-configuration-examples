@@ -11,4 +11,4 @@ npm i
 npm start
 ```
 
-Before checking the examples, it is strongly reccomended to read our documentation: [Config Files](https://babeljs.io/docs/en/config-files).
+Before checking the examples, it is strongly reccomended to read our documentation: [Config Files](https://babeljs.io/docs/en/config-files), [Config Loading options](https://babeljs.io/docs/en/options#config-loading-options) and [Config Merging options](https://babeljs.io/docs/en/options#config-merging-options).
