@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "07-import-from-different-package-same-config__webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd client && npm install && cd ../shared && npm install"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-block-scoping": "^7.2.0"
+  }
+}
