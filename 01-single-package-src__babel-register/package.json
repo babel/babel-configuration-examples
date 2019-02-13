@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "01-single-package-src__babel-register",
+  "version": "1.0.0",
+  "main": "src/entrypoint.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "03-ignore-specific-dependencies__babel.config.js",
+  "version": "1.0.0",
+  "main": "src/entrypoint.js",
+  "scripts": {
+    "postinstall": "cp -r fake-node_modules/. node_modules/",
+    "start": "node ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0"
+  }
+}

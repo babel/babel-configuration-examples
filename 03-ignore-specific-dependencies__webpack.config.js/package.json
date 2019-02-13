@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "03-ignore-specific-dependencies__webpack.config.js",
+  "version": "1.0.0",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "postinstall": "cp -r fake-node_modules/. node_modules/",
+    "start": "npm run build && node ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
