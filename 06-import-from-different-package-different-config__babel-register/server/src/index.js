@@ -2,12 +2,12 @@
 
 const shared = require("../../shared/src");
 
-const main = () => {
+const server = () => {
   // This should be an arrow function
-  let name = "main"; // This should be var.
+  let name = "server"; // This should be var.
 
   return name;
 };
 
-console.log("\n\nHas main been transpiled?\n" + main);
+console.log("\n\nHas server been transpiled?\n" + server);
 console.log("\n\nHas shared been transpiled?\n" + shared);

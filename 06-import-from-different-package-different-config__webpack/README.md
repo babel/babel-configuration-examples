@@ -1,6 +1,6 @@
 ```sh
 (cd shared; npm i)
-cd main
+cd client
 npm i
 npm run start
 ```

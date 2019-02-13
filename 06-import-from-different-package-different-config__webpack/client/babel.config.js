@@ -4,8 +4,8 @@ module.exports = {
     "../shared",
   ],
 
-  // This plugins are applied both to main/ and to shared/.
-  // If you want them only to apply to main, you can add the
+  // This plugins are applied both to client/ and to shared/.
+  // If you want them only to apply to client/, you can add the
   //   "include": __dirname
   // top-level option to this config file.
   plugins: [
