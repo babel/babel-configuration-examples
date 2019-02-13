@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "05-compilel-from-subfolder__babel-cli",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "scripts": {
+    "postinstall": "cd build && npm install",
+    "build": "cd build && npm run build",
+    "start": "npm run build && node ."
+  },
+  "license": "MIT"
+}
